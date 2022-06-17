@@ -19,3 +19,17 @@ header, footer {
 ul.one {
     list-style-type: square;
 }
+
+ul li:nth-child(odd) {
+    background-color: rgb(250, 187, 52);
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(250, 187, 52);
+    padding: 10px 12px;
+   
+}
+a:hover {
+    background-color: rgb(3, 142, 184);
+}
