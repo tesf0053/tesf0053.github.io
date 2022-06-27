@@ -8,3 +8,37 @@ body {
      width: 1000px;
      margin: auto;
 }
+
+h1{
+    color: white;
+    font-weight: normal;
+    font-size: 60px;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 40%;
+  
+}
+.nav {
+  width: 1000px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    float: left;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    width: 250px;
+    display: block;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bolder; 
+    
+}
