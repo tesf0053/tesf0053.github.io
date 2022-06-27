@@ -2,3 +2,8 @@ body {
     margin-top: 100px;
     background-color: #aad4cf;
 }
+
+.wrapper {
+     width: 800px;
+     margin: auto;
+}
