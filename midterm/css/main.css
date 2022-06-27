@@ -8,25 +8,30 @@ body {
      width: 1000px;
      margin: auto;  
 }
+.header{
+    width: 100%;
+}
+
+.header img {
+    width: 100%;
+}
+.header h1 {
+    position: absolute;
+    top: 30%;
+    right: 60%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
 
 .container {
-    background-color: blueviolet;
-    width: 987px;
+    background-color: #c4dfdc;
+    width: 960px;
     height: 1000px;
     margin: 0;
     padding: 20px;
 }
 
-h1{
-    color: white;
-    font-weight: normal;
-    font-size: 60px;
-    position: absolute;
-    width: 100%;
-    top: 20%;
-    left: 40%;
-  
-}
 .nav {
   width: 1000px;
 }
