@@ -16,19 +16,21 @@ body {
     width: 100%;
 }
 .header h1 {
-    position: absolute;
-    top: 30%;
-    right: 60%;
+    position: relative;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 55px;
+    font-weight: normal;
+    top: 20% ;
+    
+
 }
 
 .container {
     background-color: #c4dfdc;
     width: 960px;
     height: 1000px;
-    margin: 0;
+    margin: -1% 0% 0% 0%;
     padding: 20px;
 }
 
@@ -49,7 +51,7 @@ body {
     width: 250px;
     display: block;
     padding: 0 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder; 
