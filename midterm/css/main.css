@@ -64,6 +64,11 @@ body {
     
 }
 
+.description {
+    margin: auto;
+    width: 100%;
+}
+
 .description h2 {
     margin: 0;
     padding: 50px 0 0 0;
@@ -71,3 +76,14 @@ body {
     font-size: 35px;
     font-weight: bolder;
 }
+
+.description img {
+    float: left;
+    width: 280px;
+    height: 280px;
+    padding: 20px 10px 0 0;
+}
+.description p {
+    font-size: 17px;
+}
+
