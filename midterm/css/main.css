@@ -86,5 +86,21 @@ body {
 }
 .description p {
     font-size: 17px;
+    padding-left: 10px;
 }
 
+.list h3 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 27px;  
+}
+
+.list ul {
+   padding-left: 10px;
+}
+
+.form h4 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 27px;  
+}
