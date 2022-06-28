@@ -68,6 +68,7 @@ body {
 .description {
     margin: auto;
     width: 100%;
+    
 }
 
 .description h2 {
@@ -101,6 +102,28 @@ body {
 
 .form h4 {
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 20px 0 10px 0;
     font-size: 27px;  
+}
+
+.outline {
+    outline: 2px solid rgb(0, 0, 0); 
+    width: 100%;
+    padding-top: 20px;
+}
+.info {
+    padding: 20px;    
+}
+
+.info input{
+    width: 100%;
+    
+}
+.info label {
+    
+}
+
+.message {
+    padding: 20px;
+    
 }
