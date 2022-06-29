@@ -107,16 +107,16 @@ h4 {
 }
 .info input {
     width: 100%;
-}
-
-.info label {
-    display: block; 
-    
+    margin: 8px 0 ;
 }
 
 .form{
     margin: 10px auto;
     border: 2px solid black;
-    padding: 20px;  
+    padding: 40px;  
     
+}
+
+.message input {
+    padding-bottom: 80px;
 }
