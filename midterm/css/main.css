@@ -35,7 +35,7 @@ body {
 .container {
     background-color: #d3ebe8;
     width: 960px;
-    height: 1000px;
+    height: 1200px;
     margin: -1% 0% 0% 0%;
     padding: 20px;
 }
@@ -100,30 +100,23 @@ body {
    padding-left: 10px;
 }
 
-.form h4 {
+h4 {
     margin: 0;
     padding: 20px 0 10px 0;
     font-size: 27px;  
 }
-
-.outline {
-    outline: 2px solid rgb(0, 0, 0); 
+.info input {
     width: 100%;
-    padding-top: 20px;
-}
-.info {
-    padding: 20px;    
 }
 
-.info input{
-    width: 100%;
-    
-}
 .info label {
+    display: block; 
     
 }
 
-.message {
-    padding: 20px;
+.form{
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 20px;  
     
 }
