@@ -35,7 +35,7 @@ body {
 .container {
     background-color: #d3ebe8;
     width: 960px;
-    height: 1200px;
+    height: 1160px;
     margin: -1% 0% 0% 0%;
     padding: 20px;
 }
@@ -115,8 +115,15 @@ h4 {
     border: 2px solid black;
     padding: 40px;  
     
+    
 }
 
 .message input {
     padding-bottom: 80px;
+}
+
+.button input{
+    width: 60px;
+    padding: 15px 10px;
+    background-color: transparent;
 }
