@@ -122,13 +122,13 @@ h4 {
     padding-bottom: 80px;
 }
 
-.button input{
+.btn {
     width: 60px;
     padding: 15px 10px;
     background-color: transparent;
     cursor: pointer;
 }
-.button input:hover {
+.btn :hover {
     background-color: aquamarine;
 }
 
