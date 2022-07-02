@@ -1,13 +1,15 @@
+/* style all the body */
 body {
     background-color: #aad4cf;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* this is the syle for all the conetent inside the wrapper class */
 .wrapper {
      width: 1000px;
      margin: auto;  
 }
+/* style the header class */
 .header{
     width: 100%;
     text-align: center;
@@ -17,7 +19,7 @@ body {
 .header img {
     width: 100%;
 }
-
+/* this make the header image ceneter and style header */
 .header-text {
     color: white;  
     text-align: center;
@@ -28,13 +30,13 @@ body {
 
 
 }
-
+/* style heder text  */
 .header-text h1 {
     font-size: 55px;
     font-weight: normal; 
   
 }
-
+/* style all the container */
 .container {
     background-color: #d3ebe8;
     width: 960px;
@@ -54,6 +56,8 @@ body {
 .nav li {
     float: left;
 }
+
+/* style all navigation bar */
 .nav a {
     text-decoration: none;
     color: black;
@@ -68,15 +72,18 @@ body {
     
 }
 
+/* this style hide the border left */
 .nav #nav-1 {
     border-left: none;
 }
+
+/* this is the syle of description class */
 .description {
     margin: auto;
     width: 100%;
     
 }
-
+/* style heading 2 inside description class */
 .description h2 {
     margin: 0;
     padding: 50px 0 0 0;
@@ -84,18 +91,19 @@ body {
     font-size: 35px;
     font-weight: bolder;
 }
-
+/* style the image 2 wrapping*/
 .description img {
     float: left;
     width: 280px;
     height: 280px;
     padding: 20px 10px 0 0;
 }
+/* style all p in descrption class */
 .description p {
     font-size: 17px;
     padding-left: 10px;
 }
-
+/* this is the style for list items and header 3 */
 .list h3 {
     margin: 0;
     padding: 20px 0 0 0;
@@ -106,16 +114,19 @@ body {
    padding-left: 10px;
 }
 
+/* style header 4  */
 h4 {
     margin: 0;
     padding: 20px 0 10px 0;
     font-size: 27px;  
 }
+
 .info input {
     width: 100%;
     margin: 8px 0 ;
 }
 
+/* stlye form div class */
 .form{
     margin: 10px auto;
     border: 2px solid black;
@@ -128,13 +139,14 @@ h4 {
     padding-bottom: 80px;
 }
 
+/*this is the style of send button  */
 .btn {
     width: 60px;
     padding: 15px 10px;
     background-color: transparent;
     cursor:pointer;
 }
-
+/* style footer text-align to the right side */
 footer {
    text-align: right;
 }
