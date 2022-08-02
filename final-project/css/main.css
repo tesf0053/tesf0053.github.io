@@ -66,3 +66,14 @@ body {
 .wrapper h1, h2, h3, h4 {
      font-weight: bolder;  
 }
+
+/* style the hader color */
+header {
+    background-color:  #222;
+    border: 12px solid  #222; 
+    
+}
+.logo {
+   width: 100%;
+   background-color:#c78c06;
+}
