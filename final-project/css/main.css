@@ -129,3 +129,32 @@ nav ul li {
 .welcome{
     position: relative;
 }
+/* these styles make overlay text on the heading banner image */
+.banner-text-overlay{ 
+    position:absolute;
+    top: 100px;
+    max-width: 1200px;
+    text-align: left;
+    background-color: rgba(34, 34, 34, 0.692);
+    padding: 10px;
+    line-height: 25px;
+}
+.banner-text-overlay h1 {
+    font-size: 3rem;
+    line-height: 50px;  
+    color: white;
+}
+.banner-text-overlay p {
+    font-size: 16px;
+    line-height: 20px;  
+    color: white;
+    margin-bottom: 20px;
+}
+.welcome {
+    background-color: #ffe6ac;
+}
+.banner-text-overlay a { 
+    color: #222;
+    text-decoration: none;
+    font-size: 20px;      
+}
