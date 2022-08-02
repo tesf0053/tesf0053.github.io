@@ -77,3 +77,11 @@ header {
    width: 100%;
    background-color:#c78c06;
 }
+
+/* This line code style the home active bar only */
+nav ul li .active{
+    color: #222;
+    background-color: #c78c06;
+    max-width: 100%;
+    padding: 10px;
+}
