@@ -119,3 +119,13 @@ nav ul li {
     width: 50%;
     padding: 5px;
 }
+/* this line of style all  the image width 100% */
+.img-banner ,.img-about {
+    width: 100%;
+}
+.img-john ,.img-bob {
+    width: 100%;
+}
+.welcome{
+    position: relative;
+}
