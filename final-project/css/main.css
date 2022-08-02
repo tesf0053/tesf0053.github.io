@@ -85,3 +85,37 @@ nav ul li .active{
     max-width: 100%;
     padding: 10px;
 }
+
+/* These lines of code style the navigation bar */  
+.home ,nav ul {
+    list-style: none;
+     padding-left: 0;
+     text-align: center;      
+} 
+/* This style change the color of the home navigation bar */
+.home a {
+      color:  #222;
+}
+/* These style change the color of the navigation bar except the home nav */
+ nav ul li a {
+      color:#c78c06;
+}
+  .home ,nav a {
+      text-decoration: none; 
+}
+.home nav ul li {
+      margin: 1rem;  
+}
+nav ul li {
+      margin: 1rem;   
+}
+.search-bar{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 5px;   
+}
+.tbox{
+    width: 50%;
+    padding: 5px;
+}
