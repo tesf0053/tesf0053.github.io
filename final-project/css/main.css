@@ -57,4 +57,12 @@ body {
 .container{
     max-width: 1200px;
 }
-
+/* This wrapper makes all the wrapped contenet center */
+.wrapper {
+    max-width:90%;
+    margin: 0 auto;
+}
+/* style the font weight of the wrapper's heading */
+.wrapper h1, h2, h3, h4 {
+     font-weight: bolder;  
+}
