@@ -159,7 +159,7 @@ nav ul li {
     font-size: 20px;      
 }
 
-/* These are the style for buttons and change the buttunes color, width and hteir padding*/
+/* These are the style for buttons and change the buttunes color, width and their padding */
 .btn-1 {
     max-width: 40px;
     padding: 5px;
@@ -176,5 +176,38 @@ nav ul li {
     max-width: 30%;
     cursor: pointer;
     border-radius: 2px;
+}
+.btn-3{
+    background-color: #222;
+    font-size: 18px;
+    padding: 30px;
+    margin: 5px 20px 10px 10px;
+    max-width: 150px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.btn-3 i {
+   color: rgb(255, 255, 255);
 
 }
+.btn-4{
+    background-color: #222;
+    padding: 20px;
+    margin-top: 10px;
+    max-width: 100px;
+    cursor: pointer;
+    border: 2px solid #c46a16;
+    border-radius: 2px;
+    
+}
+.btn-4 a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.services a { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+
