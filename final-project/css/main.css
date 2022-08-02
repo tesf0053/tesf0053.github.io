@@ -158,3 +158,23 @@ nav ul li {
     text-decoration: none;
     font-size: 20px;      
 }
+
+/* These are the style for buttons and change the buttunes color, width and hteir padding*/
+.btn-1 {
+    max-width: 40px;
+    padding: 5px;
+    margin: -6px;
+    border-color:#c78c06;
+    color: #c78c06;
+    background-color:  rgb(31, 29, 29);     
+    cursor: pointer;
+}
+.btn-2 {
+    background-color: #c78c06;
+    padding: 10px;
+    border:none;
+    max-width: 30%;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
