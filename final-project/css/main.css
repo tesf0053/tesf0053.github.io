@@ -257,3 +257,25 @@ nav ul li {
     padding: 2px 10px 20px;
     font-size: 16px;
 }
+
+/* This style set the width of market class image 100% style all contents inside it */
+.img-market{
+    width: 100%;
+
+}
+.market-section{
+    background-color: #ffe6ac;  
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    line-height: 20px;
+   
+}
+.market-section h3{
+    padding: 20px 10px 20px;
+    font-size: 1.5rem;
+}
+.market-section p{
+    padding: 2px 10px 20px;
+    font-size: 16px;
+}
