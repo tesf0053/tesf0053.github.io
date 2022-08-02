@@ -206,8 +206,34 @@ nav ul li {
     color: white;
  
 }
+
+/* styling about us image width and divs contents style all contents inside it*/
+.about-us {
+    width: auto;
+    background-color:#ffe6ac;
+
+}
+.img-about{
+    width: 100%;
+    display: block;
+    margin: 5px auto 0 auto;
+
+}
+.about-us h2 {
+    font-size: 2rem;
+    padding: 10px 10px 10px 0;
+}
+.about-us p {
+    padding: 0 20px 20px 0;
+}
+
+/* Change the a tag inside service class and h2 font size*/
 .services a { 
     color: rgb(255, 255, 255);
     text-decoration: none;    
+}
+.services-h2{
+    font-size: 4rem;
+    padding: 20px 0px 20px ;
 }
 
