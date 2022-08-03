@@ -321,3 +321,53 @@ nav ul li {
     padding: 2px 10px 20px;
     font-size: 16px;
 }
+* This style set the width of print class image 100% and style all contents inside it */
+.img-print{
+    width: 100%;
+}
+.print-section{
+    background-color: #ffe6ac;  
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    line-height: 20px;
+   
+}
+.print-section h3{
+    padding: 20px 10px 20px;
+    font-size: 1.5rem;
+}
+.print-section p {
+    padding: 2px 10px 20px;
+    font-size: 16px;
+}
+
+/* vision section style  */
+.img-vision {
+    width: 100%;
+
+    margin-top: 12px;
+}
+.banner-2{
+    position: relative;
+}
+.vision-text-overlay{
+    position:absolute;
+    line-height: 20px;
+    top: 70px;
+    text-align: left;
+    color: white;
+    max-width: 90%;
+    /* padding: 10px ; */
+    line-height: 30px;
+}
+.vision-text-overlay h2{
+    font-size: 1.5rem;
+    margin: -5px 0 5px 0;
+}
+.vision-text-overlay p {
+    font-size: 16px;
+}
+.vision-text-overlay a {
+    font-size: 16px;
+}
