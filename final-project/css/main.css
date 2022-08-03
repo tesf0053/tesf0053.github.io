@@ -516,5 +516,19 @@ footer p {
 }
 /* This is for media screen 760px and above */
 @media screen and (min-width: 760px){
-
+       /* This change the font family in to opens sans for webpage */
+       body {
+        font-family: 'Open Sans', sans-serif;
+        
+       }
+       .container{
+           max-width: 100%;
+           margin: 0 auto;
+       }
+       .wrapper{
+           margin: 0 auto;
+       }
+       header {
+           border: none;      
+       }
 }
