@@ -516,191 +516,345 @@ footer p {
 }
 /* This is for media screen 760px and above */
 @media screen and (min-width: 760px){
-       /* This change the font family in to opens sans for webpage */
-       body {
-        font-family: 'Open Sans', sans-serif;
-        
-       }
-       .container{
-           max-width: 100%;
-           margin: 0 auto;
-       }
-       .wrapper{
-           margin: 0 auto;
-       }
-       header {
-           border: none;      
-       }
-        /* This line of code change the size of the header banner image size into cover */
-        .img-banner{
-           width: 100%;
-           max-height: 600px;
-           object-fit: cover;
-        }
-        .logo{
-            position: relative;
-            background-color: transparent;
-            max-width: 100%;
-            margin: 20px 0 18px 0;
-        } 
-        .img-logo {
-            position: absolute;
-            max-width: 60px;
-            top: 0;
-            left: 20px;
-        }
-        /* style the  home navigation bar  */
-        nav {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            justify-content:center;
+    /* This change the font family in to opens sans for webpage */
+      body {
+      font-family: 'Open Sans', sans-serif;
+      
+     }
+     .container{
+         max-width: 100%;
+         margin: 0 auto;
+     }
+     .wrapper{
+         margin: 0 auto;
+     }
+     header {
+         border: none;      
+     }
 
-        }
-        nav ul {
-            display: flex;
-            text-align: center;
+     /* This line of code change the size of the header banner image size into cover */
+     .img-banner{
+        width: 100%;
+        max-height: 600px;
+        object-fit: cover;
+     }
+     .logo{
+         position: relative;
+         background-color: transparent;
+         max-width: 100%;
+         margin: 20px 0 18px 0;
+     } 
+     .img-logo {
+         position: absolute;
+         max-width: 60px;
+         top: 0;
+         left: 20px;
+     }
+     /* style the  home navigation bar  */
+     nav {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         justify-content:center;
+
+     }
+     nav ul {
+         display: flex;
+         text-align: center;
+
+     }
+     nav ul li a{
+         padding: 5px;
+      
+     }
+     nav ul li .active {
+         background-color: #c78c06;
+         color: #222;
+         padding: 10px 20px 10px 40px;
+         cursor: pointer;
+     }
+
+      /* This line of code change the size of the header banner image size into cover */
+     .img-vision{
+         width: 100%;
+         max-height: 400px;
+         object-fit: cover;
+     }
+     .vision-text-overlay {
+         max-width:100%;
+     }
+     .banner-text-overlay{
+         position:absolute;
+         top: 180px;
+         max-width: 700px;
+         padding: 10px 0 50px 30px;
+         line-height: 50px;
+     }
+     .banner-text-overlay h1 {
+         font-weight: 900px;
+         line-height: 80px;    
+     }
+     .banner-text-overlay p{
+         font-size: 20px;
+         line-height: 30px;    
+     }
+
+
+     .img-about{
+         max-width: 300px;
+         float: left;
+         margin: 10px 15px 10px 0;        
+     }
+
+     .services {
+         margin-bottom: 10px;
+     }
+     /* style the font weight of the wrapper's heading */
+     .wrapper h1, h2, h3, h4 {
+         font-weight: bolder;  
+     }
+
+     /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+     .row-1 {
+         display: grid;
+         grid-gap: 10px;
+         grid-template-columns: repeat(2,1fr);            
+     }
+ /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+     .row-2 {
+         display: grid;
+         grid-gap: 10px;
+         grid-template-columns: repeat(3,1fr);
+
+     }
+
+     /* These line of code make the teams section order position 50% of the place and wrape the content left and writ with the image */
+     .teams{
+         display: flex;
+         flex-wrap: wrap;
+
+     }
+     .teams .team-section:nth-child(1),
+     .team-section:nth-child(2){
+        flex-basis: 50%;
+     }
+     .teams .team-section:nth-child(1),
+     .team-section:nth-child(2){
+         order: 1;
+     }
+     .teams .team-section:nth-child(3),
+     .team-section:nth-child(4){
+        flex-basis: 50%;
+     }
+     .teams .team-section:nth-child(3){
+         order: 3;
+     }
+     .team-section:nth-child(4){
+         order: 2;
+     }
   
-        }
-        nav ul li a{
-            padding: 5px;
+   /* These style rearragne the order of the child divs inside order class */
+     .order {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 8px;
+     }
+     .order .order-section:nth-child(1),
+     .order-section:nth-child(3) {
+         flex-basis: calc(50% - 4px);
+         order: 1;
+     }
+     .order .order-section:nth-child(2){
+         flex-basis: 100%;
+         order: 2;
          
-        }
-        nav ul li .active {
-            background-color: #c78c06;
-            color: #222;
-            padding: 10px 20px 10px 40px;
-            cursor: pointer;
-        }/* style the  home navigation bar  */
-        nav {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            justify-content:center;
+     }
 
-        }
-        nav ul {
-            display: flex;
-            text-align: center;
+     .btn-5{
+         padding: 5px;
+         margin: 10px 0px 10px 0px;
+     }
+     /* Style button-5 full widith for screen size 760px and above */
+     .btn-3{
+         background-color: #222;
+         text-align: center;
+         font-size: 18px;
+         padding: 30px;
+         margin: 5px 20px 10px 20px;
+         max-width: 100%;
+         cursor: pointer;
+         border-radius: 2px;
+     }
+
+ }       @media screen and (min-width: 760px){
+    /* This change the font family in to opens sans for webpage */
+      body {
+      font-family: 'Open Sans', sans-serif;
+      
+     }
+     .container{
+         max-width: 100%;
+         margin: 0 auto;
+     }
+     .wrapper{
+         margin: 0 auto;
+     }
+     header {
+         border: none;      
+     }
+
+     /* This line of code change the size of the header banner image size into cover */
+     .img-banner{
+        width: 100%;
+        max-height: 600px;
+        object-fit: cover;
+     }
+     .logo{
+         position: relative;
+         background-color: transparent;
+         max-width: 100%;
+         margin: 20px 0 18px 0;
+     } 
+     .img-logo {
+         position: absolute;
+         max-width: 60px;
+         top: 0;
+         left: 20px;
+     }
+     /* style the  home navigation bar  */
+     nav {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         justify-content:center;
+
+     }
+     nav ul {
+         display: flex;
+         text-align: center;
+
+     }
+     nav ul li a{
+         padding: 5px;
+      
+     }
+     nav ul li .active {
+         background-color: #c78c06;
+         color: #222;
+         padding: 10px 20px 10px 40px;
+         cursor: pointer;
+     }
+
+      /* This line of code change the size of the header banner image size into cover */
+     .img-vision{
+         width: 100%;
+         max-height: 400px;
+         object-fit: cover;
+     }
+     .vision-text-overlay {
+         max-width:100%;
+     }
+     .banner-text-overlay{
+         position:absolute;
+         top: 180px;
+         max-width: 700px;
+         padding: 10px 0 50px 30px;
+         line-height: 50px;
+     }
+     .banner-text-overlay h1 {
+         font-weight: 900px;
+         line-height: 80px;    
+     }
+     .banner-text-overlay p{
+         font-size: 20px;
+         line-height: 30px;    
+     }
+
+
+     .img-about{
+         max-width: 300px;
+         float: left;
+         margin: 10px 15px 10px 0;        
+     }
+
+     .services {
+         margin-bottom: 10px;
+     }
+     /* style the font weight of the wrapper's heading */
+     .wrapper h1, h2, h3, h4 {
+         font-weight: bolder;  
+     }
+
+     /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+     .row-1 {
+         display: grid;
+         grid-gap: 10px;
+         grid-template-columns: repeat(2,1fr);            
+     }
+     /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+     .row-2 {
+         display: grid;
+         grid-gap: 10px;
+         grid-template-columns: repeat(3,1fr);
+
+     }
+
+     /* These line of code make the teams section order position 50% of the place and wrape the content left and writ with the image */
+     .teams{
+         display: flex;
+         flex-wrap: wrap;
+
+     }
+     .teams .team-section:nth-child(1),
+     .team-section:nth-child(2){
+        flex-basis: 50%;
+     }
+     .teams .team-section:nth-child(1),
+     .team-section:nth-child(2){
+         order: 1;
+     }
+     .teams .team-section:nth-child(3),
+     .team-section:nth-child(4){
+        flex-basis: 50%;
+     }
+     .teams .team-section:nth-child(3){
+         order: 3;
+     }
+     .team-section:nth-child(4){
+         order: 2;
+     }
   
-        }
-        nav ul li a{
-            padding: 5px;
+     /* These style rearragne the order of the child divs inside order class */
+     .order {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 8px;
+     }
+     .order .order-section:nth-child(1),
+     .order-section:nth-child(3) {
+         flex-basis: calc(50% - 4px);
+         order: 1;
+     }
+     .order .order-section:nth-child(2){
+         flex-basis: 100%;
+         order: 2;
          
-        }
-        nav ul li .active {
-            background-color: #c78c06;
-            color: #222;
-            padding: 10px 20px 10px 40px;
-            cursor: pointer;
-        }
-        /* This line of code change the size of the header banner image size into cover */
-        .img-vision{
-            width: 100%;
-            max-height: 400px;
-            object-fit: cover;
-        }
-        .vision-text-overlay {
-            max-width:100%;
-        }
-        .banner-text-overlay{
-            position:absolute;
-            top: 180px;
-            max-width: 700px;
-            padding: 10px 0 50px 30px;
-            line-height: 50px;
-        }
-        .banner-text-overlay h1 {
-            font-weight: 900px;
-            line-height: 80px;    
-        }
-        .banner-text-overlay p{
-            font-size: 20px;
-            line-height: 30px;    
-        }
+     }
 
+     .btn-5{
+         padding: 5px;
+         margin: 10px 0px 10px 0px;
+     }
+     /* Style button-5 full widith for screen size 760px and above */
+     .btn-3{
+         background-color: #222;
+         text-align: center;
+         font-size: 18px;
+         padding: 30px;
+         margin: 5px 20px 10px 20px;
+         max-width: 100%;
+         cursor: pointer;
+         border-radius: 2px;
+     }
 
-        .img-about{
-            max-width: 300px;
-            float: left;
-            margin: 10px 15px 10px 0;        
-        }
-
-        .services {
-            margin-bottom: 10px;
-        }
-        /* style the font weight of the wrapper's heading */
-        .wrapper h1, h2, h3, h4 {
-            font-weight: bolder;  
-        }
-        /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
-        .row-1 {
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(2,1fr);            
-        }
-        /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
-        .row-2 {
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(3,1fr);
-    
-        }
-
-        /* These line of code make the teams section order position 50% of the place and wrape the content left and writ with the image */
-        .teams{
-            display: flex;
-            flex-wrap: wrap;
-
-        }
-        .teams .team-section:nth-child(1),
-        .team-section:nth-child(2){
-           flex-basis: 50%;
-        }
-        .teams .team-section:nth-child(1),
-        .team-section:nth-child(2){
-            order: 1;
-        }
-        .teams .team-section:nth-child(3),
-        .team-section:nth-child(4){
-           flex-basis: 50%;
-        }
-        .teams .team-section:nth-child(3){
-            order: 3;
-        }
-        .team-section:nth-child(4){
-            order: 2;
-        }
-          /* These style rearragne the order of the child divs inside order class */
-          .order {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        .order .order-section:nth-child(1),
-        .order-section:nth-child(3) {
-            flex-basis: calc(50% - 4px);
-            order: 1;
-        }
-        .order .order-section:nth-child(2){
-            flex-basis: 100%;
-            order: 2;
-            
-        }
-        .btn-5{
-            padding: 5px;
-            margin: 10px 0px 10px 0px;
-        }
-        /* Style button-5 full widith for screen size 760px and above */
-        .btn-3{
-            background-color: #222;
-            text-align: center;
-            font-size: 18px;
-            padding: 30px;
-            margin: 5px 20px 10px 20px;
-            max-width: 100%;
-            cursor: pointer;
-            border-radius: 2px;
-        }
-
-}
+ }       
