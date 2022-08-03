@@ -485,3 +485,17 @@ iframe{
     border: none;
     
 }
+/* footer style */
+footer{
+ 
+    background-color: #222;
+    color: #c78c06;
+    padding: 20px 25px;   
+}
+footer a {
+    color: #c78c06;
+
+}
+footer p {
+    line-height: 30px;
+}
