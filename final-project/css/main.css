@@ -594,4 +594,44 @@ footer p {
             padding: 10px 20px 10px 40px;
             cursor: pointer;
         }
+        /* This line of code change the size of the header banner image size into cover */
+        .img-vision{
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .vision-text-overlay {
+            max-width:100%;
+        }
+        .banner-text-overlay{
+            position:absolute;
+            top: 180px;
+            max-width: 700px;
+            padding: 10px 0 50px 30px;
+            line-height: 50px;
+        }
+        .banner-text-overlay h1 {
+            font-weight: 900px;
+            line-height: 80px;    
+        }
+        .banner-text-overlay p{
+            font-size: 20px;
+            line-height: 30px;    
+        }
+
+
+        .img-about{
+            max-width: 300px;
+            float: left;
+            margin: 10px 15px 10px 0;        
+        }
+
+        .services {
+            margin-bottom: 10px;
+        }
+        /* style the font weight of the wrapper's heading */
+        .wrapper h1, h2, h3, h4 {
+            font-weight: bolder;  
+        }
+
 }
