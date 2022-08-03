@@ -57,6 +57,7 @@ body {
 .container{
     max-width: 1200px;
 }
+
 /* This wrapper makes all the wrapped contenet center */
 .wrapper {
     max-width:90%;
@@ -70,13 +71,15 @@ body {
 /* style the hader color */
 header {
     background-color:  #222;
-    border: 12px solid  #222; 
-    
+    border: 12px solid  #222;   
+    padding: 0px 0 20px 0;
 }
 .logo {
    width: 100%;
    background-color:#c78c06;
+  
 }
+
 
 /* This line code style the home active bar only */
 nav ul li .active{
@@ -85,10 +88,9 @@ nav ul li .active{
     max-width: 100%;
     padding: 10px;
 }
-
 /* These lines of code style the navigation bar */  
 .home ,nav ul {
-    list-style: none;
+     list-style: none;
      padding-left: 0;
      text-align: center;      
 } 
@@ -109,15 +111,15 @@ nav ul li .active{
 nav ul li {
       margin: 1rem;   
 }
-.search-bar{
-    position: relative;
-    width: 100%;
+
+nav form {
     text-align: center;
-    padding: 5px;   
+    max-width: 100%;
 }
 .tbox{
-    width: 50%;
+    width: 60%;
     padding: 5px;
+    
 }
 /* this line of style all  the image width 100% */
 .img-banner ,.img-about {
@@ -129,6 +131,7 @@ nav ul li {
 .welcome{
     position: relative;
 }
+
 /* these styles make overlay text on the heading banner image */
 .banner-text-overlay{ 
     position:absolute;
@@ -159,7 +162,7 @@ nav ul li {
     font-size: 20px;      
 }
 
-/* These are the style for buttons and change the buttunes color, width and their padding */
+/* These are the style for buttons and change the buttunes color, width and hteir padding*/
 .btn-1 {
     max-width: 40px;
     padding: 5px;
@@ -176,6 +179,7 @@ nav ul li {
     max-width: 30%;
     cursor: pointer;
     border-radius: 2px;
+
 }
 .btn-3{
     background-color: #222;
@@ -206,6 +210,11 @@ nav ul li {
     color: white;
  
 }
+.services a { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+
 
 /* styling about us image width and divs contents style all contents inside it*/
 .about-us {
@@ -226,7 +235,6 @@ nav ul li {
 .about-us p {
     padding: 0 20px 20px 0;
 }
-
 /* Change the a tag inside service class and h2 font size*/
 .services a { 
     color: rgb(255, 255, 255);
@@ -236,6 +244,7 @@ nav ul li {
     font-size: 4rem;
     padding: 20px 0px 20px ;
 }
+
 /* This style set the width of digitals class image 100% style all contents inside it*/
 .img-digital{
     width: 100%;
@@ -279,6 +288,7 @@ nav ul li {
     padding: 2px 10px 20px;
     font-size: 16px;
 }
+
 /* This style set the width of video class image 100% style all contents inside it */
 .img-video{
     width: 100%;
@@ -321,6 +331,7 @@ nav ul li {
     padding: 2px 10px 20px;
     font-size: 16px;
 }
+
 /* This style set the width of print class image 100% and style all contents inside it */
 .img-print{
     width: 100%;
@@ -353,13 +364,12 @@ nav ul li {
 }
 .vision-text-overlay{
     position:absolute;
-    line-height: 20px;
-    top: 70px;
+    line-height: 30px;
+    top: 50px;
     text-align: left;
     color: white;
     max-width: 90%;
-    /* padding: 10px ; */
-    line-height: 30px;
+    
 }
 .vision-text-overlay h2{
     font-size: 1.5rem;
@@ -371,6 +381,7 @@ nav ul li {
 .vision-text-overlay a {
     font-size: 16px;
 }
+
 
 /* teams section style */
 .team-section{
@@ -435,6 +446,7 @@ nav ul li {
     font-size: 18px;
     margin: 10px 0px 10px 0px;
 }
+
 .message input {
     width: 100%;
     height: 150px;
@@ -446,7 +458,7 @@ nav ul li {
     padding: 10px 0 0 0;
     margin: 5px 0 0 0;
 }
-/* style button-5 for mobile screen */
+
 .btn-5 {
     width: 60px;
     max-height: 30px;
@@ -456,6 +468,7 @@ nav ul li {
     border: none;
     cursor: pointer;
 }
+
 /* These lines of code style two colomuns and threee rows with data */
 .hours-table h2 {
     font-size: 2rem;
@@ -479,12 +492,14 @@ table td {
     padding: 12px;
     border: 0.5px solid black;  
 }
+
 /* This line code style the width and border of location section*/
 iframe{
     width: 100%;
     border: none;
     
 }
+
 /* footer style */
 footer{
  
