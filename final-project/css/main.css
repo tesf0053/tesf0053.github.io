@@ -549,4 +549,49 @@ footer p {
             top: 0;
             left: 20px;
         }
+        /* style the  home navigation bar  */
+        nav {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content:center;
+
+        }
+        nav ul {
+            display: flex;
+            text-align: center;
+  
+        }
+        nav ul li a{
+            padding: 5px;
+         
+        }
+        nav ul li .active {
+            background-color: #c78c06;
+            color: #222;
+            padding: 10px 20px 10px 40px;
+            cursor: pointer;
+        }/* style the  home navigation bar  */
+        nav {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content:center;
+
+        }
+        nav ul {
+            display: flex;
+            text-align: center;
+  
+        }
+        nav ul li a{
+            padding: 5px;
+         
+        }
+        nav ul li .active {
+            background-color: #c78c06;
+            color: #222;
+            padding: 10px 20px 10px 40px;
+            cursor: pointer;
+        }
 }
