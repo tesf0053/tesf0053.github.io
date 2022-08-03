@@ -479,3 +479,9 @@ table td {
     padding: 12px;
     border: 0.5px solid black;  
 }
+/* This line code style the width and border of location section*/
+iframe{
+    width: 100%;
+    border: none;
+    
+}
