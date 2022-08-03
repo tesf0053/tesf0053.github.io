@@ -514,3 +514,7 @@ footer a {
 footer p {
     line-height: 30px;
 }
+/* This is for media screen 760px and above */
+@media screen and (min-width: 760px){
+
+}
