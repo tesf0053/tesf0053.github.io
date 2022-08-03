@@ -279,3 +279,45 @@ nav ul li {
     padding: 2px 10px 20px;
     font-size: 16px;
 }
+/* This style set the width of video class image 100% style all contents inside it */
+.img-video{
+    width: 100%;
+
+}
+.production-section{
+    background-color: #ffe6ac;  
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    line-height: 20px;
+   
+}
+.production-section h3{
+    padding: 20px 10px 20px;
+    font-size: 1.5rem;
+}
+.production-section p{
+    padding: 2px 10px 20px;
+    font-size: 16px;
+}
+
+/* This style set the width of web class image 100% style all contents inside it */
+.img-web{
+    width: 100%;
+}
+.web-section{
+    background-color: #ffe6ac;  
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    line-height: 20px;
+   
+}
+.web-section h3{
+    padding: 20px 10px 20px;
+    font-size: 1.5rem;
+}
+.web-section p {
+    padding: 2px 10px 20px;
+    font-size: 16px;
+}
