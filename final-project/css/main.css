@@ -435,3 +435,47 @@ nav ul li {
     font-size: 18px;
     margin: 10px 0px 10px 0px;
 }
+.message input {
+    width: 100%;
+    height: 150px;
+    padding: 10px 0 0 0;
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+}
+.message {
+    padding: 10px 0 0 0;
+    margin: 5px 0 0 0;
+}
+/* style button-5 for mobile screen */
+.btn-5 {
+    width: 60px;
+    max-height: 30px;
+    font-size: 20px;
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+    cursor: pointer;
+}
+/* These lines of code style two colomuns and threee rows with data */
+.hours-table h2 {
+    font-size: 2rem;
+    padding: 20px 0 20px 0px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+
+}
+
+table tr th {
+    background-color: #ffe6ac;
+    text-align: center;
+    padding: 12px;
+    border: 0.5px solid black;
+}
+table td {
+    padding: 12px;
+    border: 0.5px solid black;  
+}
